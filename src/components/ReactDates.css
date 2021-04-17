@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.main-div {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.react-dates-display-div {
+  width: 20%;
+  height: 5rem;
+  border: black solid .2rem;
+  border-radius: .5rem;
+  margin: 1rem;
+  padding: .5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.react-dates-display-span {
+  font-size: 3.5vw;
+}

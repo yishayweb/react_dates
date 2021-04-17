@@ -1,0 +1,10 @@
+.calendar-modal-div {
+  width: 50%;
+  border: #f7f7f7 solid 1px;
+  border-radius: .5rem;
+  position: absolute;
+  z-index: 1;
+  top: 65px;
+  background-color: #f7f7f7;
+  box-shadow: .05rem .05rem .7rem .1rem #777777;
+}

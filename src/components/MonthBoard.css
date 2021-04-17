@@ -1,0 +1,28 @@
+/* .month-board-main-div {
+  
+} */
+
+.month-board-row {
+  display: flex;
+  justify-content: center;
+}
+
+.month-board-cell {
+  width: 14%;
+  height: 4rem;
+  line-height: 4rem;
+  text-align: center;
+  font-size: 2rem;
+  display: inline-block;
+}
+
+.month-board-skip-div {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0.5rem;
+}
+
+.month-board-skip-text {
+  font-size: 2rem;
+  cursor: pointer;
+}
